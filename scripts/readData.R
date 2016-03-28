@@ -1,3 +1,8 @@
+
+#data download from:
+# https://d1i1jxrdh2kvwy.cloudfront.net/Data/HOTSLogs%20Data%202015-12-30%20-%202016-01-29.zip
+#reddit post:https://www.reddit.com/r/heroesofthestorm/comments/43q3jc/hots_logs_data_export_19_million_games/
+
 dat.hero<-read.csv("../data/HotsLogs_Data_2015_12_30_2016_01_29_Folder/HeroIDAndMapID_2015-12-30-2016-01-29.csv")
 dat.replay<-read.csv("../data/HotsLogs_Data_2015_12_30_2016_01_29_Folder/Replays_2015-12-30-2016-01-29.csv")
 dat.characters<-read.csv("../data/HotsLogs_Data_2015_12_30_2016_01_29_Folder/ReplayCharacters_2015-12-30-2016-01-29.csv")
